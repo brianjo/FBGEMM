@@ -47,7 +47,7 @@ jobs:
     - name: Install gcc
       shell: bash
       run: |
-        sudo apt-get install -y yum-utils
+        sudo apt-get install -y yum
         sudo yum groups mark install -y "Development Tools"
     - name: Setup Path
       run: |
